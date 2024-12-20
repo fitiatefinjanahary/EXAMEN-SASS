@@ -1,0 +1,110 @@
+body {
+  font-family: "Georgia", serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Arial", sans-serif;
+  color: rgb(78, 78, 117);
+}
+
+header {
+  background-color: rgb(78, 78, 117);
+  color: #fff;
+  padding: 20px 0;
+}
+header img {
+  width: 300px;
+  height: 370px;
+  margin: 25px;
+  border-radius: 40px;
+}
+header ul {
+  display: flex;
+  list-style-type: none;
+  color: aliceblue;
+  font-size: 30px;
+}
+header li {
+  display: flex;
+  margin: 45px;
+  color: aliceblue;
+}
+header a {
+  display: flex;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.about {
+  border: 1px solid;
+  border-radius: 25px;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.button {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.button:hover {
+  background-color: rgb(213.698630137, 43.8356164384, 26.301369863);
+}
+
+.hero {
+  padding: 100px 0;
+}
+.hero h1 {
+  font-size: 48px;
+  text-align: center;
+}
+.hero p {
+  font-size: 18px;
+  text-align: center;
+}
+
+.skill {
+  border: 1px solid;
+  border-radius: 25px;
+  margin-right: 800px;
+}
+
+.projects {
+  background-color: #dcdcdc;
+  float: left;
+  text-align: center;
+}
+.projects .project-card {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid;
+  border-radius: 25px;
+  margin-left: 600px;
+}
+.projects .project-card h2 {
+  font-size: 24px;
+  color: rgb(78, 78, 117);
+}
+.projects .project-card p {
+  font-size: 16px;
+}
+
+.contact {
+  border: 1px solid;
+  border-radius: 25px;
+  margin: 25px;
+}
+
+/*# sourceMappingURL=style.css.map */

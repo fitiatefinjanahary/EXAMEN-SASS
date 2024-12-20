@@ -1,0 +1,97 @@
+header {
+  background-color: $primary-color;
+  color: $white;
+  padding: 20px 0;
+  img{
+    width: 300px;
+    height: 370px;
+    margin: 25px;
+    border-radius: 40px;
+  }
+  ul{
+    display: flex;
+    list-style-type: none;
+    color: aliceblue;
+    font-size: 30px;
+  }
+  li{
+    display: flex;
+    margin: 45px;
+    color: aliceblue;
+
+  }
+  a{
+    display: flex;
+    text-decoration: none;
+    color: aliceblue;
+  }
+}
+.about{
+  border:1px solid;
+  border-radius: 25px;
+}
+footer {
+  background-color: $black;
+  color: $white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.button {
+  background-color: $accent-color;
+  color: $white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  &:hover {
+    background-color: darken($accent-color, 10%);
+  }
+}
+.hero {
+  padding: 100px 0;
+  
+  h1 {
+    font-size: 48px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 18px;
+    text-align: center;
+  }
+}
+.skill{
+  border:1px solid;
+  border-radius: 25px;
+  margin-right: 800px;
+}
+
+.projects {
+  background-color: $gray-light;
+  float: left;
+  text-align: center;
+  .project-card {
+    background-color: $white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    border:1px solid;
+    border-radius: 25px;
+    margin-left: 600px;
+    
+    h2 {
+      font-size: 24px;
+      color: $primary-color;
+    }
+    
+    p {
+      font-size: 16px;
+    }
+  }
+}
+.contact{
+  border: 1px solid;
+  border-radius: 25px;
+  margin: 25px;
+}
+
